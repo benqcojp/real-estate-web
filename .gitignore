@@ -53,7 +53,7 @@ logs/
 
 # generated files
 public/sitemap*.xml
-public/robots.txt
+public/robots.txt 
 
 # cursor
 /.cursor/

@@ -1,0 +1,26 @@
+:root {
+  /* 将主色调更改为日本传统和风配色 */
+  --primary-50: #f7f4ef;
+  --primary-100: #ebe3d5;
+  --primary-200: #d5c7b2;
+  --primary-300: #c0ab8e;
+  --primary-400: #a98f73;
+  --primary-500: #8a725c;
+  --primary-600: #6d5a48;
+  --primary-700: #554639;
+  --primary-800: #3e352d;
+  --primary-900: #29221e;
+  
+  /* 添加配套的深红色调（朱红色） */
+  --accent-red: #9d2933;
+  
+  /* 添加配套的墨绿色调 */
+  --accent-green: #5b6356;
+}
+
+/* 添加日本风格的纸质纹理背景 */
+body {
+  background-color: var(--primary-50);
+  background-image: url('/images/washi-texture.jpg');
+  background-blend-mode: overlay;
+} 
